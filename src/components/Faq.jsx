@@ -31,7 +31,9 @@ const Faq = () => {
                         <Heading heading="Key Q&A" />
                         <div className='translate-x-[18px] flex flex-col gap-2'>
                             {FAQ_TEXT.map((item, i) => (
+                                <div key={i}>
                                 <CustomList CustomList={item} />
+                                </div>
                             ))}
                         </div>
 

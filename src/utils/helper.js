@@ -9,12 +9,12 @@ export const SEARCH_LIST = [
 ];
 
 export const DATA_SECURITY = [
-    {
-        list: 'SaaS => we provide the search infrastructure so you can focus on your applications'
-    },
-    {
-        list: 'Hosted in a Swiss datacenter by Microsoft'
-    }
+    
+         'SaaS => we provide the search infrastructure so you can focus on your applications',
+    
+    
+        'Hosted in a Swiss datacenter by Microsoft'
+    
 ];
 
 export const KEY_SEMANTICS_WORK = [

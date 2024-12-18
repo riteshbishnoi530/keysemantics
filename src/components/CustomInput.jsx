@@ -18,7 +18,7 @@ const CustomInput = () => {
         <p className="absolute top-0 left-0 max-sm:hidden">
         </p>
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-white font-bold text-custom-sm text-center leading-[72px] max-md:text-2xl max-sm:text-xl">
+          <h2 className="text-white font-bold text-custom-sm text-center leading-[72px] max-md:text-2xl max-sm:text-2xl">
             How does KeySemantics work?
           </h2>
           <p className="font-normal text-base text-center text-white leading-[28px] pt-2 relative z-20">
@@ -32,14 +32,14 @@ const CustomInput = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
-              className="bg-off-purple w-[320px] mx-auto py-4 px-5 rounded-full outline-none placeholder:text-dark-purple text-dark-purple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px]"
+              className="bg-off-purple w-[320px] mx-auto py-4 max-sm:py-3 px-5 rounded-full outline-none placeholder:text-dark-purple text-white font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px]"
               placeholder="Name"
             />
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               type="email"
-              className="bg-off-purple w-[320px] mx-auto py-4 px-5 rounded-full outline-none placeholder:text-dark-purple text-dark-purple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-off-purple w-[320px] mx-auto py-4 max-sm:py-3 px-5 rounded-full outline-none placeholder:text-dark-purple text-white font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Email"
               required
             />
@@ -47,14 +47,14 @@ const CustomInput = () => {
               value={company}
               onChange={(e) => setCompany(e.target.value)}
               type="text"
-              className="bg-off-purple w-[320px] mx-auto py-4 px-5 rounded-full outline-none placeholder:text-dark-purple text-dark-purple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-off-purple w-[320px] mx-auto py-4 max-sm:py-3 px-5 rounded-full outline-none placeholder:text-dark-purple text-white font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Company"
             />
             <input required
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               type="number"
-              className="bg-off-purple w-[320px] mx-auto py-4 px-5 rounded-full outline-none placeholder:text-dark-purple text-dark-purple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-off-purple w-[320px] mx-auto py-4 max-sm:py-3 px-5 rounded-full outline-none placeholder:text-dark-purple text-white font-normal placeholder:font-normal  text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Phone (optional)"
             />
             <p className="text-[10px] font-normal leading-[14px] text-center text-dark-purple pt-4 pb-6">

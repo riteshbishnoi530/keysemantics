@@ -66,7 +66,7 @@ const Faq = () => {
                                         <div className="mt-4">
                                             <CustomFaqDescription FaqText={obj.descriptionOne} />
                                             <CustomFaqDescription FaqText={obj.descriptionTwo} />
-                                            <div className="flex items-center gap-4 my-4 max-sm:flex-col">
+                                            <div className="flex items-center justify-center gap-4 my-4 max-sm:flex-col">
                                                 <img
                                                     className="max-w-[268px]"
                                                     src={obj.imgOne}

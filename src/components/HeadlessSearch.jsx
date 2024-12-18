@@ -1,7 +1,5 @@
 import React from 'react'
-import Heading from '../common/Heading'
 import { DATA_SECURITY, SEARCH_LIST } from '../utils/helper'
-import CustomButtons from '../common/CustomButtons'
 import HeadlessList from '../common/HeadlessList'
 
 function HeadlessSearch() {

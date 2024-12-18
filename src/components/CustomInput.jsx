@@ -18,7 +18,7 @@ const CustomInput = () => {
         <p className="absolute top-0 left-0 max-sm:hidden">
         </p>
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-white font-bold text-[32px] text-center leading-[72px] max-lg:text-3xl max-md:text-2xl">
+          <h2 className="text-white font-bold text-custom-sm text-center leading-[72px] max-md:text-2xl max-sm:text-xl">
             How does KeySemantics work?
           </h2>
           <p className="font-normal text-base text-center text-white leading-[28px] pt-2 relative z-20">
